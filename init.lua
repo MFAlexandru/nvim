@@ -15,7 +15,7 @@ vim.opt.clipboard = 'unnamedplus'   -- Use system clipboard
 vim.opt.cursorline = true           -- Highlight the current line
 vim.opt.termguicolors = true        -- Enable 24-bit RGB colors
 vim.cmd([[ highlight CursorLine guibg=#2E2E2E ]])
-vim.api.nvim_set_keymap('i', 'jj', '<Esc>', { noremap = true, silent = true })
+vim.keyman.set('i', 'jj', '<Esc>', { noremap = true, silent = true })
 
 -- Search Settings
 vim.opt.ignorecase = true           -- Ignore case in search patterns
