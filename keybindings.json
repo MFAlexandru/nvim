@@ -3,11 +3,11 @@
     {
         "command": "vscode-neovim.send",
         // the key sequence to activate the binding
-        "key": "j j",
+        "key": "j",
         // don't activate during insert mode
         "when": "editorTextFocus && neovim.mode == insert",
         // the input to send to Neovim
-        "args": "jj",
+        "args": "j",
     },
     {
         "key": "ctrl+k",
